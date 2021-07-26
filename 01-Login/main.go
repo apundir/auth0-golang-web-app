@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+	// the returned error is not handled
 	app.Init()
 	StartServer()
 }

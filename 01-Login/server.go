@@ -15,6 +15,7 @@ import (
 	"user"
 )
 
+// StartServer - there's no reason why this function should be public.
 func StartServer() {
 	r := mux.NewRouter()
 
